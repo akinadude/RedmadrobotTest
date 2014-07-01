@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Volumes/Personal_Disk/Android%20Studio%20Projects/WebCachedImageView/code/WebCachedImageView/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="WebCachedImageView">
+        <attr name="cache_mode">
+            <enum name="no_cache" value="0" />
+            <enum name="memory" value="1" />
+            <enum name="disk" value="2" />
+        </attr>
+        <attr name="memoryPercentToUse" format="float" />
+    </declare-styleable>
+
+</resources>

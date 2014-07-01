@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.radmadrobot.test.app.activities.ImageGridActivity">
+
+    <GridView
+        android:id="@+id/photos_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/gridview_horizontal_padding"
+        android:paddingRight="@dimen/gridview_horizontal_padding"
+        android:paddingTop="@dimen/gridview_vertical_padding"
+        android:paddingBottom="@dimen/gridview_vertical_padding"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/gridview_vertical_spacing"
+        android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+        android:clipToPadding="false"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:scrollbarStyle="outsideOverlay">
+    </GridView>
+
+   <!--
+       <GridView
+        android:id="@+id/photos_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/gridview_horizontal_padding"
+        android:paddingRight="@dimen/gridview_horizontal_padding"
+        android:paddingTop="@dimen/gridview_vertical_padding"
+        android:paddingBottom="@dimen/gridview_vertical_padding"
+        android:layout_centerInParent="true"
+        android:columnWidth="@dimen/gridview_column_width"
+        android:numColumns="3"
+        android:verticalSpacing="@dimen/gridview_vertical_spacing"
+        android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:scrollbarStyle="outsideOverlay">
+    </GridView>
+   -->
+
+    <ProgressBar
+        android:id="@+id/photos_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

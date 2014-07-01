@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_auth_background">
+
+   <!-- <RelativeLayout
+        android:id="@+id/user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/nickname_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="@string/nickname" />
+
+        <TextView
+            android:id="@+id/user_nickname_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="tokerrg_stub" />
+    </RelativeLayout>-->
+
+    <!--layout_below:layout_below="@+id/user_layout"
+    android:layout_gravity="center_vertical"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/submit_media_user_has_liked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:onClick="onMediaUserHasLikedClicked"
+            android:paddingTop="6dp"
+            android:paddingBottom="9dp"
+            android:text="@string/media_user_has_liked"
+            android:textColor="@drawable/selector_button_text"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/submit_other_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button"
+            android:gravity="center"
+            android:onClick="onPopularClicked"
+            android:paddingTop="6dp"
+            android:paddingBottom="9dp"
+            android:text="@string/popular"
+            android:textColor="@drawable/selector_button_text"
+            android:textSize="20sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+
+</RelativeLayout>

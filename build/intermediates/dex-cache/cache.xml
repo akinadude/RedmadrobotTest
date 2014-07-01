@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="D:\Development\android-studio-projects\RadmadrobotTest\app\build\intermediates\pre-dexed\debug\gson-2.2.4-f0eae07b62d788e55d62e84252aa7ac3e2601bd1.jar"
+        jar="C:\Users\toker\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="D:\Development\android-studio-projects\RadmadrobotTest\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-81734b81780dd8c09a8f275cb7ffae3474c73189.jar"
+        jar="D:\Development\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="D:\Development\android-studio-projects\RadmadrobotTest\app\build\intermediates\pre-dexed\debug\classes-f8137a1f3837c5691a627641864f40288b7cf857.jar"
+        jar="D:\Development\android-studio-projects\RadmadrobotTest\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cf9754bfa8484f88f26e45d28fe298daa544d4f0"/>
+    <item
+        dex="D:\Development\android-studio-projects\RadmadrobotTest\app\build\intermediates\pre-dexed\debug\classes-9b0db5961218a218395e29d85499fbd666b4ff4f.jar"
+        jar="D:\Development\android-studio-projects\RadmadrobotTest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="D:\Development\android-studio-projects\RadmadrobotTest\app\build\intermediates\pre-dexed\debug\android-smart-image-view-1.0.0-ea1925823f8d5c1ad5b26fc6d40e08c324445b94.jar"
+        jar="D:\Development\android-studio-projects\RadmadrobotTest\app\libs\android-smart-image-view-1.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d76ea8c3e9a60101244d6d04aff8cc75888570f0"/>
+
+</pre-dex-items>

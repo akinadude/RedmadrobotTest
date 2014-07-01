@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="send_email_request_code">1002</integer>
+    <integer name="fade_anim_duration_ms">300</integer>
+</resources>
